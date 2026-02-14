@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    const links = [
+      "https://yourlink1.com",
+      "https://yourlink2.com",
+      "https://yourlink3.com",
+      "https://yourlink4.com",
+      "https://yourlink5.com",
+      "https://yourlink6.com",
+      "https://yourlink7.com",
+      "https://yourlink8.com",
+      "https://yourlink9.com",
+      "https://yourlink10.com"
+    ];
+
+    window.onload = function() {
+      const randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    };
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
